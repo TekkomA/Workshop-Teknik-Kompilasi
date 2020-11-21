@@ -1,0 +1,36 @@
+* {margin:0; padding: 0;}
+
+
+
+/* Jendela Pop Up */
+#popup {
+	width: 75%;
+	height: 75%;
+	position: fixed;
+	background: rgba(0,0,0,.7);
+	top: 0px;
+	bottom: 100px;
+	left: 10px;
+	right: 10px;
+	z-index: 9999;
+	visibility: hidden;
+}
+
+.window {
+	background: #fff;
+	border-radius: 0px;
+	position: relative;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 100px;
+	left: 500px;
+	right: 150px;
+	font-size: 5px;
+	text-align: center;
+}
+
+
+/* Memunculkan Jendela Pop Up*/
+#popup:target {
+	visibility: visible;
+}
